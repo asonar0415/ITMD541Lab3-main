@@ -1,0 +1,24 @@
+.container {
+    padding: 20px;
+    margin: auto;
+    margin-top: 2%;
+    background-image: url("Money.jpeg");
+}
+.btn-primary {
+    background-color: #FFF;
+    color: black;
+    
+}
+.btn-primary:focus,
+.btn-primary:hover    {
+    background-image: linear-gradient(to right, rgb(167, 209, 237));
+    color: #FFF;
+    
+}
+.sign::before {
+    content: "$";
+    color: black;
+}
+body{
+    font-family: Tahoma,Verdana,Segoe,sans-serif;   
+}
